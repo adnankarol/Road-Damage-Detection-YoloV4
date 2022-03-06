@@ -1,0 +1,5 @@
+# List of files/folders to be ignored by git
+
+Data/
+Data_India/
+.ipynb_checkpoints

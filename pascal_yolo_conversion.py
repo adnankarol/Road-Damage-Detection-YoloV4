@@ -75,7 +75,7 @@ def convert_annotation(dir_path, output_path, image_path):
 
 
 dir_path = 'Data_India/images'
-classes = ['D00', 'D10', 'D20', 'D40', 'D44']
+classes = ['D00', 'D10', 'D20', 'D40']
 
 def main():
     count = 0
@@ -96,7 +96,7 @@ def main():
         list_file.write(image_path + '\n')
         convert_annotation(full_dir_path, output_path, image_path)
         count = count + 1
-        #print("Image Converted: ", count, ":", image_path)
+        print("Image Converted: ", count, ":", image_path)
     list_file.close()
 
     print("Finished processing: " + dir_path)

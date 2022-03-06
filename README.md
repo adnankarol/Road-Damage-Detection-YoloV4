@@ -143,6 +143,8 @@ Download and save pre-trained weights and save it in the configs folder using th
 
 4. Every 100 iterations the weigths are stored in the folder mentioned in the 'obj.data' as parameter backup. And for every 1000 iteration a new weights file is created.
 
+5. The training can be stopped once the MAP value reduces to around 1 and stabilizes (varies from application to application). This graph is shown in the next section.
+
 
 <a name="Results"></a>
 # Section 5: Results
@@ -153,18 +155,23 @@ Download and save pre-trained weights and save it in the configs folder using th
     
     MAP is an evaluation metric, commonly used in the field of computer vision used for object detection (i.e. localisation and classification)
 
-2. The results of our trained models is shown in image below.
-   
+2. The training in the start is visualized in the graph below.
+
+    ![Test Image 1](Images/chart_start.png)
+
+3. The final results of our trained models is shown in image below.
+
+    ![Test Image 1](Images/chart.png)  
 
 <a name="Testing"></a>
 # Section 6: Testing
 Some samples of images tested with our model are shown below.
 
-![Test Image 1](Images/test_1.png)
+    ![Test Image 1](Images/test_1.png)
 
-![Test Image 2](Images/test_2.png)
+    ![Test Image 2](Images/test_2.png)
 
-![Test Image 3](Images/test_3.png)
+    ![Test Image 3](Images/test_3.png)
 
 
 <a name="info"></a>

@@ -133,17 +133,21 @@ Download and save pre-trained weights and save it in the configs folder using th
 <a name="Training"></a>
 # Section 4: Model Training
 
-1.  Open command line cmd at the root of the repository.
+1. Open the Notebook `Training_Notebook.ipynb` to follow all the steps for training the model. The command for training the yolo model is:
 
-2.  Run the command   
+    `!./darknet detector train [path to obj.data] [path to yolov4-obj.cfg] [path to pre-trained weights] -dont_show -map`
 
-    `pip install -r requirements.txt` 
+2. Every 100 iterations the weigths are stored in the folder mentioned in the 'obj.data' as parameter backup. And for every 1000 iteration a new weights file is created.
 
-3. Open the Notebook `Training_Notebook.ipynb` to follow all the steps for training the model.
+3. The training can be stopped once the MAP value reduces to around 1 and stabilizes (varies from application to application). This graph is shown in the next section.
 
-4. Every 100 iterations the weigths are stored in the folder mentioned in the 'obj.data' as parameter backup. And for every 1000 iteration a new weights file is created.
+4. In case your notebook crashes or your server is down while training, you can resume your training with the following command:
 
-5. The training can be stopped once the MAP value reduces to around 1 and stabilizes (varies from application to application). This graph is shown in the next section.
+    `!./darknet detector train [path to obj.data] [path to yolov4-obj.cfg] [path to training/backup/yolov4-obj_last.weights] -dont_show`
+
+5. For checking the final MAP value of your model, enter the command:
+
+    `!./darknet detector map [path to obj.data] [path to yolov4-obj.cfg] [path to weights file which you want to check MAP for]`
 
 
 <a name="Results"></a>

@@ -175,8 +175,6 @@ Some samples of images tested with our model are shown below.
 
     ![Test Image 2](Images/test_2.png)
 
-    ![Test Image 3](Images/test_3.png)
-
 
 <a name="info"></a>
 # Section 7: Additional Information

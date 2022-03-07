@@ -2,4 +2,5 @@
 
 Data/
 Data_India/
-.ipynb_checkpoints
+training/
+.ipynb_checkpoints/

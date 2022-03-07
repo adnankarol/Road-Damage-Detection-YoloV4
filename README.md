@@ -30,6 +30,8 @@ A Repository to Train a Custom Yolov4 based object detector for road damage dete
 # Section 2: Model
 
 ## About the YOLOv4 Model
+YOLO: you look only once. YOLO is an object detection system in real-time.
+Please read the paper for more information [here](https://arxiv.org/abs/2004.10934) .
 
 ## Downloading YOLOv4.
 

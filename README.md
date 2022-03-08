@@ -163,19 +163,22 @@ Download and save pre-trained weights and save it in the configs folder using th
 
 2. The training in the start is visualized in the graph below.
 
-    ![Test Image 1](Images/chart_start.png)
+    <img src="Images/chart_start.png" width="400"/>
 
 3. The final results of our trained models is shown in image below.
 
-    ![Test Image 1](Images/chart.png)  
+    <img src="Images/chart.png" width="400"/>  
 
 <a name="Testing"></a>
 # Section 6: Testing
 Some samples of images tested with our model are shown below.
 
-    ![Test Image 1](Images/test_1.png)
 
-    ![Test Image 2](Images/test_2.png)
+<img src="Images/test1.png" width="400"/> <img src="Images/test2.png" width="400"/>
+
+As we can see from the below samples, the model is not in its best version and need to train for longer duration of time and iterations and also we can use data from remaining countries as well, i.e. Japan and the Czech Republic.
+
+<img src="Images/test3.png" width="400"/> <img src="Images/test4.png" width="400"/>
 
 
 <a name="info"></a>
